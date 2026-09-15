@@ -1,0 +1,439 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "CH552T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CH552T_1_1"
+			(rectangle
+				(start -20.32 26.035)
+				(end 20.32 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 24.13 0)
+				(length 2.54)
+				(name "P3.2/TXD/INT0/VBUS1/AIN3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 21.59 0)
+				(length 2.54)
+				(name "P1.4/T2/CAP1/SCS/TIN2/UCC1/AIN1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 19.05 0)
+				(length 2.54)
+				(name "P1.5/MOSI/PWM1/TIN3/UCC2/AIN2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 16.51 0)
+				(length 2.54)
+				(name "P1.6/MISO/RXD1/TIN4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 13.97 0)
+				(length 2.54)
+				(name "P1.7/SCK/TXD1/TIN5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 11.43 0)
+				(length 2.54)
+				(name "RST/T2EX/CAP2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 8.89 0)
+				(length 2.54)
+				(name "P1.0/T2/CAP1/TIN0"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 6.35 0)
+				(length 2.54)
+				(name "P1.1/T2EX/CAP2/TIN1/VBUS2/AIN0"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 3.81 0)
+				(length 2.54)
+				(name "P3.1/PWM2/TXD"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 1.27 0)
+				(length 2.54)
+				(name "P3.0/PWM1/RXD"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 1.27 180)
+				(length 2.54)
+				(name "P3.3/INT1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 3.81 180)
+				(length 2.54)
+				(name "P3.4/T0"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 6.35 180)
+				(length 2.54)
+				(name "P3.5/T1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 8.89 180)
+				(length 2.54)
+				(name "P3.6/UDP"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 11.43 180)
+				(length 2.54)
+				(name "P3.7/UDM"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 13.97 180)
+				(length 2.54)
+				(name "P1.3/XO/TXD"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 16.51 180)
+				(length 2.54)
+				(name "P1.2/XI/RXD"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 19.05 180)
+				(length 2.54)
+				(name "GND/VSS"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 21.59 180)
+				(length 2.54)
+				(name "VCC/VDD"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 24.13 180)
+				(length 2.54)
+				(name "V33"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

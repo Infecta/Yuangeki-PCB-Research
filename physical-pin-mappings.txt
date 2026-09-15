@@ -1,0 +1,24 @@
+// FORMAT:
+// In Game Key LED-Pin, Button-Pin
+
+WAD L 19,20
+
+Menu L 27,28
+
+Left A 22,21
+Left B 23,24
+Left C 26,25
+
+
+WAD R 18,17
+
+Menu R 1,48
+
+Right A 3,2
+Right B 14,13
+Right C 16,15
+
+TEST - 39,38
+SERVICE - 47,46
+
+Lever - 11

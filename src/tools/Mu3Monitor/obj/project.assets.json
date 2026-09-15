@@ -1,0 +1,117 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0-windows": {
+      "mu3io/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/mu3io.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mu3io.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mu3io/1.0.0": {
+      "type": "project",
+      "path": "../../../references/Mu3IO.NET/Source/MU3IO.csproj",
+      "msbuildProject": "../../../references/Mu3IO.NET/Source/MU3IO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows": [
+      "mu3io >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Infecta\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Infecta\\Desktop\\Yuangeki Research\\src\\tools\\Mu3Monitor\\Mu3Monitor.csproj",
+      "projectName": "mu3-monitor",
+      "projectPath": "C:\\Users\\Infecta\\Desktop\\Yuangeki Research\\src\\tools\\Mu3Monitor\\Mu3Monitor.csproj",
+      "packagesPath": "C:\\Users\\Infecta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Infecta\\Desktop\\Yuangeki Research\\src\\tools\\Mu3Monitor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Infecta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Infecta\\Desktop\\Yuangeki Research\\references\\Mu3IO.NET\\Source\\MU3IO.csproj": {
+              "projectPath": "C:\\Users\\Infecta\\Desktop\\Yuangeki Research\\references\\Mu3IO.NET\\Source\\MU3IO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.30, 8.0.30]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.30, 8.0.30]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.30, 8.0.30]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.30, 8.0.30]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
