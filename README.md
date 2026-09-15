@@ -10,7 +10,7 @@ The goal of this repo is to document my findings in hopes someone more capable t
 
 I made the PoC firmware to fix an issue with the lever & implementing a more proper IO implementation other than Mouse + KB
 
-*I really meant rough. I did my best to double check the connections but I can't guarantee everything is accurate.
+*I really meant rough. I did my best to double check the connections but I can't guarantee everything is accurate. There's also pictures of the PCB with annotations of what I think is relevant. Capacitor values are unknown and I have no way of measuring them.
 
 **I couldn't dump the firmware of the CH552T and I have already overwritten the firmware.
 
