@@ -2,15 +2,17 @@
 
 This repo serves to document the yuangeki PCB as much as possible. It contains the following.
 
-- Rough Schematic of the Yuangeki PCB V1.2a
+- Rough Schematic of the Yuangeki PCB V1.2a*
 - PoC custom firmware you can flash on the board (More details below)
-- Firmware dumps*
+- Firmware dumps**
 
 The goal of this repo is to document my findings in hopes someone more capable than me can make a more stable firmware.
 
 I made the PoC firmware to fix an issue with the lever & implementing a more proper IO implementation other than Mouse + KB
 
-*I couldn't dump the firmware of the CH552T and I have already overwritten the firmware.
+*I really meant rough. I did my best to double check the connections but I can't guarantee everything is accurate.
+
+**I couldn't dump the firmware of the CH552T and I have already overwritten the firmware.
 
 Findings
 ---
